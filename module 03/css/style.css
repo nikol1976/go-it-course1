@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.body {
+    width: 1200px;
+    height: 2079px;
+}
+
+.navigation a {
+    margin-top: 60px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+    color: red;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 115px;
+}
+
+.block1 {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 474px;
+    height: 316px;
+    text-align: center;
+}
+
+.block2 {
+    margin-left: 300px;
+    margin-top: -315px;
+    text-align: center;
+    /* width: 474px;
+    height: 316px; */
+}
+
+.block3 {
+
+    margin-top: 45px;
+    margin-left: -670px;
+    text-align: center;
+}
+
+.block4 {
+    margin-left: 300px;
+    margin-top: -477px;
+    text-align: center;
+}
+
+.block5 {
+    text-align: center;
+    margin-left: -730px;
+    margin-top: 60px;
+}
+
+.block6 {
+    text-align: center;
+    margin-left: 310px;
+    margin-top: -483px;
+}
+
+#block {
+    display: inline-block;
+    /* list-style: none; */
+
+}
+
+.box {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 550px;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+}
+
+.box p {
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 60px;
+}
+
+.box:hover,
+.box:focus {
+    color: white;
+    background-color: red;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 35px;
+}
